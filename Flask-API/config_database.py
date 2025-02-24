@@ -1,0 +1,4 @@
+#######   ENTER THE PASSWORD AND NAME_OF_POSTGRESQL_DATABASE #######
+
+password = "YOUR PASSCODE HERE"
+database_name = "YOUR DATABASE HERE"

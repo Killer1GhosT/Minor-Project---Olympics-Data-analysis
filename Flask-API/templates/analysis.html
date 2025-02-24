@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Olympics - Visualization & Prediction</title>
+  <!-- Icon for window -->
+  <link rel="icon" href="https://image.flaticon.com/icons/svg/1021/1021169.svg">
+  <!-- Font awesome icons -->
+    <script src="https://kit.fontawesome.com/2e362d4438.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap 4 Link -->
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-smnSwzHqW1zKbeuSMsAM/fMQpkk7HY11LuHiwT8snL/W2QBoZtVCT4H5x1CEcJCs" crossorigin="anonymous">
+
+
+  <!-- Link to D3 -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+<!-- Link to Plotly -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand mt-3" href="../../index.html"><h2 class="text-dark ml-2">OLYMPICS</h2></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto"></ul>
+      <ul class="nav navbar-nav navbar-right-custom">
+      <li class="nav-item">
+        <a class="nav-link" href="analysis.html">Analysis</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="olympic_facts.html">Olympic Facts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="machine_learning.html">Olympic Medal Predictions</a>
+      </li>
+      </ul>
+  </div>
+</nav>
+
+
+ <!-- Image header -->
+    <div class= "container">
+      <div class="row">
+          <div class="col-md-12">  
+            <img class="col-md-12" id="photo" src="../static/assets/images/images_analysis/analysis.jpeg"/>   
+          </div>
+      </div>
+    </div>  
+
+<hr>
+<!--Insert title and subtitle here --> 
+<!--------------------------><!-------------------------->
+<div class= "container">
+  
+  <section id="header" class="text-center">
+      <h1 class="mb-5 display-3 content">Analysis</h1>
+<!--       <h2 class="mb-5 content">Subtitle here</h2> -->
+  </section>
+</div>
+
+
+
+
+<!-- Input code here for visualizations -->
+<!--------------------------><!-------------------------->
+<!--------------------------><!-------------------------->
+<!-- Analysis -->
+    <div class = 'row col-md-12 mx-auto'>
+
+      <div class = 'container-fluid my-3'>
+        <article class="shadow">  
+          <!-- Start Analysis Chart0 -->
+              <h4 class="text-center mt-3 pt-3">Medals Timeline Analysis</h4>
+                <h4 class="small text-center mb-3">We analyzed the top countries medal count from 1896-2016</h4>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                    </tr>
+                  </thead>
+                  <tbody>
+             <tr><td>
+                      <table class="text-center">
+                        <thead>
+                          <tr>
+                            <th colspan="2">Summer Olympics Medal Rank</th>
+                            <th></th>
+                            <th colspan="2">Winter Olympics Medal Rank</th>
+                            <th></th>
+                            <th colspan="2"></th>
+                          </tr>
+                          <tr>
+                            <th>Country</th>
+                            <th>Rank</th>
+                            <th></th>
+                            <th>Country</th>
+                            <th>Rank</th>  
+                            <th></th>
+                            <th></th>                           
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>USA</td>
+                            <td>15</td>
+                            <td rowspan="7"></td>
+                            <td>Russia</td>
+                            <td>9</td>
+                            <td rowspan="9"></td>
+                            <td rowspan="9">  
+                              <ul>
+                                <li class="text-left">
+                                When looking into the Summer Olympics from 1896 to 2016, the top 2 countires that won the most medals for each Olympic year were USA and Russia</li><br>
+                                <li class="text-left">USA consistently obtained around 300-400 medals or 100-300 medals during the Summer Olympics</li> <br>
+                                <li class="text-left">
+                                When looking into the Winter Olympics from 1896 to 2016, the top 2 countires that won the most medals for each Olympic year were Russia and USA</li>
+
+                              </ul>
+                            </td>                            
+                          </tr>
+                          <tr>
+                            <td>Russia</td>
+                            <td>7</td>
+                            <td>USA</td>
+                            <td>4</td>                            
+                          </tr>
+                          <tr>
+                            <td>Germany</td>
+                            <td>2</td>
+                            <td>Canada</td>
+                            <td>2</td>                            
+                          </tr>
+                          <tr>
+                            <td>Greece</td>
+                            <td>2</td>
+                             <td>Germany</td>
+                            <td>2</td>                           
+                          </tr>
+                          <tr>
+                            <td>France</td>
+                            <td>1</td>
+                            <td>Finland</td>
+                            <td>1</td>                           
+                          </tr>
+                          <tr>
+                            <td>Sweden</td>
+                            <td>1</td>
+                            <td>Norway</td>
+                            <td>1</td>                            
+                          </tr>
+                          <tr>
+                            <td>UK</td>
+                            <td>1</td>
+                            <td>Sweden</td>
+                            <td>1</td>                            
+                          </tr>
+                            <tr>
+                            <td colspan="2"></td>
+                            <td></td>
+                            <td>Switzerland</td>
+                            <td>1</td>                            
+                          </tr>
+                          </tr>
+                            <tr>
+                            <td colspan="2"></td>
+                            <td></td>
+                            <td>UK</td>
+                            <td>1</td>                            
+                          </tr>                          
+                        </tbody>
+                      </table>
+
+
+                </table>
+        </article>
+      </div>
+
+      <div class = 'container-fluid my-3'>
+        <article class="shadow"> 
+          <!-- Start Analysis Chart1 -->
+                <h4 class="text-center mt-3 pt-3">Age and Body Composition Analysis</h4>
+                <h4 class="small text-center mb-3">We analyzed Olympians to see the spread of age, height, and weight across the sports for women and men</h4>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                    <th></th>
+                    <th class="text-center"><h5>Women</h5></th>
+                    <th class="text-center"><h5>Men</h5></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><h5>Age</h5></td>
+                      <td>
+                 <ul>
+              <li>The <strong class="text-warning">oldest</strong> ages were from Cycling and Snowboarding, specifically Kristin Ann Armstrong from team USA during the 2016 Summer Olympics in the "Cycling Women's Individual Time Trial" at age 42.</li><br>
+              <li>The <strong class="text-warning">youngest</strong> ages were from Swimming, specifically Petra Thmer from team Germany during the Summer 1976 Olympics was the youngest in the "Swimming Women's 400 metres Freestyle" at age 15.</li>
+            <ul>
+            </td>
+            <td>
+            <ul>
+            <li>The <strong class="text-warning">oldest</strong> ages were from Cycling and Figure Skating, specifically Vyacheslav Vladimirovich Yekimov from team Russia during the 2004 Summer Olympics  in the "Cycling Men's Individual Time Trial" at age 38.</li><br>
+            <li>The <strong class="text-warning">youngest</strong> ages were from Swimming and Snowboarding, specifically Charles Meldrum "Charlie" Daniels from team USA during the 1904 Olympics was the youngest in the "Swimming Men's 4 x 50 Yard Freestyle Relay" at age 19.</li></ul></td>
+          </tr>
+          <tr>
+          <td><h5>Height</h5></td>
+          <td>
+            <ul>
+            <li>The <strong class="text-warning">tallest</strong> heights were from Basketball, Rowing, and Volleyball. In the "Women's Basketball" sport event, Ujana Semjonova was at 6.8 feet during the 1976 Summer Olympics from team Russia.</li><br>
+            <li>The <strong class="text-warning">shortest</strong> heights were from Weightlifting, Judo and Gymnastics. Wang Mingjuan from team China during the 2012 Summer Olympics was the shortest in the "Weightlifting Women's Flyweight" with a height of 4.9 feet.</li>
+            </ul>
+          </td>
+          <td><ul>
+          <li>The <strong class="text-warning">tallest</strong> heights were from Basketball, Boxing, and Wrestling. In the "Men's Basketball" sport event, Arvydas Romas Sabonis was at 7.3 feet during the 1988 Summer Olympics from team Russia.</li><br>
+          <li>The <strong class="text-warning">shortest</strong> heights were from Weightlifting, and Wrestling. Aleksandr Nikiforovich Voronin from team Russia during the 1976 Summer Olympics was the shorts in the "Weightlifting Men's Flyweight" with a height of 4.7 feet.</li></ul></td>
+          </tr>
+          <tr>
+          <td><h5>Weight</h5></td>
+          <td><ul>
+          <li>The <strong class="text-warning">heaviest</strong> weights were in Weightlifting and Rowing. In the "Weightlifting Women's Super-Heavyweight" sport event, Zhou Lulu was at 293 pounds during the 2012 Summer Olympics from team China.</li><br>
+          <li>The <strong class="text-warning">lightest</strong> weights were from Gymnastics and Figure Skating, specifically Deng Linlin from team China during the 2012 Summer Olympics was the lightest in the "Gymnastics Women's Balance Beam" at 74 pounds.</li>
+          </ul>
+          </td>
+          <td><ul>
+          <li>The <strong class="text-warning">heaviest</strong> weights were in Weightlifting and Wrestling. In the "Weightlifting Men's Super-Heavyweight" sport event, Andrey Ivanovich Chemerkin was at 374 pounds during the 1996 Summer Olympics from team Russia.</li><br>
+          <li>The <strong class="text-warning">lightest</strong> weights were from Weightlifting and Wrestling as well, specifically Roman Mikhaylovich Dmitriyev from team Russia during the 1972 Summer Olympics was the lightest in the "Wrestling Men's Light-Flyweight, Freestyle" at 105 pounds.</li>
+          </ul>
+                    </td>
+                    </tr>
+                  </tbody>
+                </table>
+        </article>
+      </div>
+
+      
+
+      <div class = 'container-fluid my-3'>
+        <article class="shadow">  
+          <!-- Start Analysis Chart0 -->
+              <h4 class="text-center mt-3. pt-3">Medals VS GDP</h4>
+                <h4 class="small text-center mb-3">We analyzed the Relationship between GDP and Olympic Medals</h4>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <ul>
+                          <li>There is a significant relationship between a nation’s GDP and the number of gold medals they win at the Olympics.</li>
+                          <br><li>The top 10 countries with the most medals all have GDPs of more than 1 billion dollars, while the 10 countries with the fewest medals have GDPs well below 1 billion. The average GDP for gold medal winning countries is $1,062,860,000.</li>
+                          <br><li>China has seen phenomenal economic growth over the last couple of decades, which has corresponded with China’s emergence as a global force in international sports.</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+        </article>
+      </div>
+
+
+<!--       <div class = 'container-fluid my-3'>
+        <article>   -->
+          <!-- Start Analysis Chart3 -->
+<!--               <h4 class="text-center mt-3">Medals World View - Seasons</h4>
+                <h4 class="small text-center mb-3">We analyzed all countries by Season and Year and the amount of medals they won</h4>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <ul>
+                          <li></li>
+                          <li></li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+        </article>
+      </div> -->
+
+
+<!--       <div class = 'container-fluid my-3'>
+        <article>   -->
+          <!-- Start Analysis Chart4 -->
+<!--               <h4 class="text-center mt-3">Medals World View - Sport</h4>
+                <h4 class="small text-center mb-3">We analyzed the top performing countries based on particular sport and the amount of medals they won</h4>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <ul>
+                          <li></li>
+                          <li></li>
+                         
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+        </article>
+      </div> -->
+
+
+<!-- Footer -->
+
+<div class="container-fluid ml-5 mt-5">
+  <footer>
+    <p class="text-muted">Olympics Visualization and Prediction 2020.
+      Images: <a href="https://unsplash.com/">Unsplash &</a>  <a href="https://www.fool.com/amp/features/specials/2014/01/15/does-it-pay-to-host-the-olympics.aspx">Motley Fool, </a>
+     Avatars: <a href="https://getavataaars.com/">GetAvataaars</a></p>
+  </footer>
+  
+</div>
+
+
+
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>

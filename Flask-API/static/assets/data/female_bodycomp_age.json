@@ -1,0 +1,625 @@
+[
+{
+"event": "Basketball Women's Basketball",
+"age": 26,
+"height": 185,
+"weight": 74,
+"sport": "Basketball"
+},
+{
+"event": "Boxing Women's Flyweight",
+"age": 31,
+"height": 164,
+"weight": 51,
+"sport": "Boxing"
+},
+{
+"event": "Boxing Women's Lightweight",
+"age": 24.5,
+"height": 166.5,
+"weight": 60,
+"sport": "Boxing"
+},
+{
+"event": "Boxing Women's Middleweight",
+"age": 19,
+"height": 175,
+"weight": 75,
+"sport": "Boxing"
+},
+{
+"event": "Cycling Women's 500 metres Time Trial",
+"age": 24.5,
+"height": 166.5,
+"weight": 70,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Women's BMX",
+"age": 24,
+"height": 158,
+"weight": 50,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Women's Individual Pursuit, 3,000 metres",
+"age": 28,
+"height": 174,
+"weight": 69,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Women's Individual Time Trial",
+"age": 34,
+"height": 173,
+"weight": 61.5,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Women's Keirin",
+"age": 26.5,
+"height": 175,
+"weight": 75,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Women's Mountainbike, Cross-Country",
+"age": 29,
+"height": 170,
+"weight": 58,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Women's Omnium",
+"age": 22,
+"height": 164,
+"weight": 56,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Women's Points Race",
+"age": 28.5,
+"height": 169.5,
+"weight": 65,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Women's Road Race, Individual",
+"age": 26,
+"height": 168,
+"weight": 59,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Women's Sprint",
+"age": 27.5,
+"height": 165,
+"weight": 68,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Women's Team Pursuit",
+"age": 22,
+"height": 175,
+"weight": 62,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Women's Team Sprint",
+"age": 25,
+"height": 166.5,
+"weight": 65.5,
+"sport": "Cycling"
+},
+{
+"event": "Figure Skating Mixed Ice Dancing",
+"age": 26,
+"height": 164.5,
+"weight": 50.5,
+"sport": "Figure Skating"
+},
+{
+"event": "Figure Skating Mixed Pairs",
+"age": 25,
+"height": 158.5,
+"weight": 45.5,
+"sport": "Figure Skating"
+},
+{
+"event": "Figure Skating Mixed Team",
+"age": 25,
+"height": 159.5,
+"weight": 46.5,
+"sport": "Figure Skating"
+},
+{
+"event": "Figure Skating Women's Singles",
+"age": 19,
+"height": 162,
+"weight": 50,
+"sport": "Figure Skating"
+},
+{
+"event": "Gymnastics Women's Balance Beam",
+"age": 18,
+"height": 153,
+"weight": 45,
+"sport": "Gymnastics"
+},
+{
+"event": "Gymnastics Women's Floor Exercise",
+"age": 18,
+"height": 157,
+"weight": 47,
+"sport": "Gymnastics"
+},
+{
+"event": "Gymnastics Women's Horse Vault",
+"age": 19,
+"height": 156.5,
+"weight": 47,
+"sport": "Gymnastics"
+},
+{
+"event": "Gymnastics Women's Individual All-Around",
+"age": 19,
+"height": 158,
+"weight": 45,
+"sport": "Gymnastics"
+},
+{
+"event": "Gymnastics Women's Team All-Around",
+"age": 18,
+"height": 156,
+"weight": 46,
+"sport": "Gymnastics"
+},
+{
+"event": "Gymnastics Women's Team Portable Apparatus",
+"age": 27,
+"height": 160,
+"weight": 57,
+"sport": "Gymnastics"
+},
+{
+"event": "Gymnastics Women's Uneven Bars",
+"age": 17.5,
+"height": 158.5,
+"weight": 45.5,
+"sport": "Gymnastics"
+},
+{
+"event": "Judo Women's Extra-Lightweight",
+"age": 25,
+"height": 154,
+"weight": 48,
+"sport": "Judo"
+},
+{
+"event": "Judo Women's Half-Heavyweight",
+"age": 24,
+"height": 173,
+"weight": 75,
+"sport": "Judo"
+},
+{
+"event": "Judo Women's Half-Lightweight",
+"age": 28,
+"height": 160,
+"weight": 52,
+"sport": "Judo"
+},
+{
+"event": "Judo Women's Half-Middleweight",
+"age": 26,
+"height": 162,
+"weight": 63,
+"sport": "Judo"
+},
+{
+"event": "Judo Women's Heavyweight",
+"age": 23,
+"height": 173,
+"weight": 98,
+"sport": "Judo"
+},
+{
+"event": "Judo Women's Lightweight",
+"age": 24,
+"height": 165.5,
+"weight": 58,
+"sport": "Judo"
+},
+{
+"event": "Judo Women's Middleweight",
+"age": 26,
+"height": 168,
+"weight": 70,
+"sport": "Judo"
+},
+{
+"event": "Rowing Women's Coxed Eights",
+"age": 25.5,
+"height": 180,
+"weight": 76,
+"sport": "Rowing"
+},
+{
+"event": "Rowing Women's Coxed Fours",
+"age": 22,
+"height": 179,
+"weight": 76.5,
+"sport": "Rowing"
+},
+{
+"event": "Rowing Women's Coxed Quadruple Sculls",
+"age": 22,
+"height": 176,
+"weight": 66.5,
+"sport": "Rowing"
+},
+{
+"event": "Rowing Women's Coxless Fours",
+"age": 27.5,
+"height": 176,
+"weight": 73.5,
+"sport": "Rowing"
+},
+{
+"event": "Rowing Women's Coxless Pairs",
+"age": 26,
+"height": 178.5,
+"weight": 74,
+"sport": "Rowing"
+},
+{
+"event": "Rowing Women's Double Sculls",
+"age": 26,
+"height": 179,
+"weight": 75.5,
+"sport": "Rowing"
+},
+{
+"event": "Rowing Women's Lightweight Double Sculls",
+"age": 28.5,
+"height": 174,
+"weight": 57.5,
+"sport": "Rowing"
+},
+{
+"event": "Rowing Women's Quadruple Sculls",
+"age": 24.5,
+"height": 183,
+"weight": 76,
+"sport": "Rowing"
+},
+{
+"event": "Rowing Women's Single Sculls",
+"age": 27,
+"height": 181,
+"weight": 75,
+"sport": "Rowing"
+},
+{
+"event": "Snowboarding Women's Boardercross",
+"age": 30,
+"height": 171,
+"weight": 65,
+"sport": "Snowboarding"
+},
+{
+"event": "Snowboarding Women's Giant Slalom",
+"age": 20,
+"height": 165,
+"weight": 61,
+"sport": "Snowboarding"
+},
+{
+"event": "Snowboarding Women's Halfpipe",
+"age": 20,
+"height": 163,
+"weight": 60,
+"sport": "Snowboarding"
+},
+{
+"event": "Snowboarding Women's Parallel Giant Slalom",
+"age": 26,
+"height": 171.5,
+"weight": 72,
+"sport": "Snowboarding"
+},
+{
+"event": "Snowboarding Women's Parallel Slalom",
+"age": 26,
+"height": 168,
+"weight": 60,
+"sport": "Snowboarding"
+},
+{
+"event": "Snowboarding Women's Slopestyle",
+"age": 23,
+"height": 160,
+"weight": 54,
+"sport": "Snowboarding"
+},
+{
+"event": "Speed Skating Women's 1,000 metres",
+"age": 24.5,
+"height": 169,
+"weight": 63,
+"sport": "Speed Skating"
+},
+{
+"event": "Speed Skating Women's 1,500 metres",
+"age": 24,
+"height": 167,
+"weight": 64,
+"sport": "Speed Skating"
+},
+{
+"event": "Speed Skating Women's 3,000 metres",
+"age": 23,
+"height": 168,
+"weight": 65,
+"sport": "Speed Skating"
+},
+{
+"event": "Speed Skating Women's 5,000 metres",
+"age": 25,
+"height": 168,
+"weight": 61,
+"sport": "Speed Skating"
+},
+{
+"event": "Speed Skating Women's 500 metres",
+"age": 24,
+"height": 165,
+"weight": 62,
+"sport": "Speed Skating"
+},
+{
+"event": "Speed Skating Women's Team Pursuit (6 laps)",
+"age": 28,
+"height": 169,
+"weight": 64,
+"sport": "Speed Skating"
+},
+{
+"event": "Swimming Women's 10 kilometres Open Water",
+"age": 22,
+"height": 173,
+"weight": 65,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Women's 100 metres Backstroke",
+"age": 17,
+"height": 173,
+"weight": 63,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Women's 100 metres Breaststroke",
+"age": 18.5,
+"height": 171,
+"weight": 63.5,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Women's 100 metres Butterfly",
+"age": 20,
+"height": 173,
+"weight": 63.5,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Women's 100 metres Freestyle",
+"age": 21,
+"height": 173.5,
+"weight": 67,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Women's 200 metres Backstroke",
+"age": 17,
+"height": 175,
+"weight": 65,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Women's 200 metres Breaststroke",
+"age": 19,
+"height": 173,
+"weight": 61,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Women's 200 metres Butterfly",
+"age": 20,
+"height": 172,
+"weight": 63,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Women's 200 metres Freestyle",
+"age": 19,
+"height": 174,
+"weight": 64,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Women's 200 metres Individual Medley",
+"age": 20,
+"height": 175,
+"weight": 64,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Women's 4 x 100 metres Freestyle Relay",
+"age": 19,
+"height": 175,
+"weight": 64,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Women's 4 x 100 metres Medley Relay",
+"age": 18,
+"height": 173,
+"weight": 64,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Women's 4 x 200 metres Freestyle Relay",
+"age": 21,
+"height": 176.5,
+"weight": 66.5,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Women's 400 metres Freestyle",
+"age": 17,
+"height": 175,
+"weight": 63,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Women's 400 metres Individual Medley",
+"age": 18,
+"height": 173,
+"weight": 61,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Women's 50 metres Freestyle",
+"age": 22.5,
+"height": 179,
+"weight": 61,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Women's 800 metres Freestyle",
+"age": 18,
+"height": 174,
+"weight": 62,
+"sport": "Swimming"
+},
+{
+"event": "Tennis Mixed Doubles",
+"age": 26.5,
+"height": 175.5,
+"weight": 63,
+"sport": "Tennis"
+},
+{
+"event": "Tennis Women's Doubles",
+"age": 26,
+"height": 176,
+"weight": 68,
+"sport": "Tennis"
+},
+{
+"event": "Tennis Women's Singles",
+"age": 21,
+"height": 175,
+"weight": 64,
+"sport": "Tennis"
+},
+{
+"event": "Volleyball Women's Volleyball",
+"age": 24,
+"height": 180,
+"weight": 72,
+"sport": "Volleyball"
+},
+{
+"event": "Weightlifting Women's Featherweight",
+"age": 22,
+"height": 155,
+"weight": 53,
+"sport": "Weightlifting"
+},
+{
+"event": "Weightlifting Women's Flyweight",
+"age": 25,
+"height": 152,
+"weight": 48,
+"sport": "Weightlifting"
+},
+{
+"event": "Weightlifting Women's Heavyweight",
+"age": 25,
+"height": 165,
+"weight": 75,
+"sport": "Weightlifting"
+},
+{
+"event": "Weightlifting Women's Light-Heavyweight",
+"age": 21,
+"height": 162,
+"weight": 69,
+"sport": "Weightlifting"
+},
+{
+"event": "Weightlifting Women's Lightweight",
+"age": 23,
+"height": 158,
+"weight": 58,
+"sport": "Weightlifting"
+},
+{
+"event": "Weightlifting Women's Middleweight",
+"age": 23,
+"height": 159,
+"weight": 63,
+"sport": "Weightlifting"
+},
+{
+"event": "Weightlifting Women's Super-Heavyweight",
+"age": 24,
+"height": 172,
+"weight": 120,
+"sport": "Weightlifting"
+},
+{
+"event": "Wrestling Women's Featherweight, Freestyle",
+"age": 24,
+"height": 163,
+"weight": 57,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Women's Flyweight, Freestyle",
+"age": 24.5,
+"height": 155,
+"weight": 48,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Women's Heavyweight, Freestyle",
+"age": 20.5,
+"height": 174.5,
+"weight": 73.5,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Women's Light-Heavyweight, Freestyle",
+"age": 21,
+"height": 159,
+"weight": 69,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Women's Lightweight, Freestyle",
+"age": 27,
+"height": 157,
+"weight": 55,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Women's Middleweight, Freestyle",
+"age": 22.5,
+"height": 166,
+"weight": 61,
+"sport": "Wrestling"
+}
+]

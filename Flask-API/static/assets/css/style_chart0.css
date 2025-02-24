@@ -1,0 +1,75 @@
+.barChartRace{
+
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+text{
+  font-family: "Inter UI",sans-serif;
+  font-size: 18px;
+}
+
+text.title{
+  font-weight: 550;
+  font-size: 24px;
+  fill:  rgb(22, 80, 138);
+  fill: steelblue;
+
+}
+
+text.subTitle{
+  font-weight: 500;
+  font-size: 18px;
+  fill: steelblue;
+  opacity: 0.8
+}
+
+text.caption{
+  font-weight: 400;
+  font-size: 14px;
+  fill: dodgerblue;
+  padding-right: 10px;
+  opacity: 0.6;
+}
+
+text.label{
+  font-weight: 600;
+  font-size: 17px;
+  font-family: Ubuntu, sans-serif;
+}
+
+text.valueLabel{
+ font-weight: 300;
+}
+
+text.yearText{
+  font-size: 64px;
+  font-weight: 700;
+  opacity: 0.35;
+  fill:dodgerblue
+}
+
+.tick text {
+  fill: #777777;
+}
+
+.xAxis .tick:nth-child(2) text {
+  text-anchor: start;
+}
+
+.tick line {
+  shape-rendering: CrispEdges;
+  stroke: #dddddd;
+}
+
+.tick line.origin{
+  stroke: #aaaaaa;
+}
+
+path.domain{
+  display: none;
+}

@@ -1,0 +1,454 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Olympics - Visualization & Prediction</title>
+  <!-- Icon for window -->
+  <link rel="icon" href="https://image.flaticon.com/icons/svg/1021/1021169.svg">
+  <!-- Font awesome icons -->
+    <script src="https://kit.fontawesome.com/2e362d4438.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap 4 Link -->
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-smnSwzHqW1zKbeuSMsAM/fMQpkk7HY11LuHiwT8snL/W2QBoZtVCT4H5x1CEcJCs" crossorigin="anonymous">
+
+
+  <!-- Link to D3 -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+<!-- Link to Plotly -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+
+
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand mt-3" href="../../index.html"><h2 class="text-dark ml-2">OLYMPICS</h2></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto"></ul>
+      <ul class="nav navbar-nav navbar-right-custom">
+      <li class="nav-item">
+        <a class="nav-link" href="analysis.html">Analysis</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="olympic_facts.html">Olympic Facts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="machine_learning.html">Olympic Medal Predictions</a>
+      </li>
+      </ul>
+  </div>
+</nav>
+
+
+ <!-- Image header -->
+    <div class= "container">
+      <div class="row">
+          <div class="col-md-12">  
+            <img class="col-md-12" id="photo" src="../static/assets/images/images_analysis/analysis.jpeg"/>   
+          </div>
+      </div>
+    </div>  
+
+<hr>
+<!--Insert title and subtitle here --> 
+<!--------------------------><!-------------------------->
+<div class= "container">
+  
+  <section id="header" class="text-center">
+      <h1 class="mb-5 display-3 content">Olympic Facts</h1>
+<!--       <h2 class="mb-5 content">Subtitle here</h2> -->
+  </section>
+</div>
+
+
+
+
+<!-- Input code here for visualizations -->
+<!--------------------------><!-------------------------->
+<!--------------------------><!-------------------------->
+   <!------ Start of Facts Container ------>
+
+    <div class="container" style = "margin-top: 60px;">
+
+      <!------------------------------------------------------------------------------------------------->
+  
+      <h3 class = " text-warning">Ancient Olympic Games</h2>
+      <blockquote class="blockquote card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          The first Olympic Games took place in the 8th century B.C. in Olympia, Greece. 
+            Held every four years, in honor of the Greek God Zeus, records show the Ancient 
+            Olympic Games began in 776 BC in Olympia and weren't halted until 394 AD.  Then, 
+            in the 4th century A.D., all pagan festivals were banned by Emperor Theodosius I 
+            and the Olympics were no more.
+        </p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.ef.edu/blog/language/24-facts-about-the-olympics/" title="" class="text-warning">Education First: Culture</a></cite>
+        </footer>
+      </blockquote>
+
+      <!-- Horizontal line -->
+      <div class="container">
+          <hr>
+      </div>
+
+      <!------------------------------------------------------------------------------------------------->
+
+      <h3 class = " text-warning">Modern Olympic Games</h2>
+      <blockquote class="blockquote text-right card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          The first modern Olympics was held in 1896 in Athens, Greece and cost roughly $448,000. Compare that to the most recent Olympic Games in Rio 2016 which cost $13.1 billion.
+        </p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.teamempowerhour.com/blog/interesting-and-fun-olympic-facts" title="" class="text-warning">Team Empower Hour</a></cite>
+        </footer>
+      </blockquote>
+
+      <blockquote class="blockquote card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          The Olympic Games was resurrected about 1500 years later after 4th century A.D.
+          The first modern Olympics were held in 1896 in Greece.
+          The Modern Olympic Games are based on the Olympic Games of Ancient Greece.
+        </p>
+          <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.ef.edu/blog/language/24-facts-about-the-olympics/" title="" class="text-warning">Education First: Culture</a></cite>
+          </footer>
+      </blockquote>
+
+      <blockquote class="blockquote text-right card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          The Olympic Games have been hosted by 23 different countries.
+          The 2012 London Games were the first Olympics in which all participating countries sent female athletes.
+        </p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.ef.edu/blog/language/24-facts-about-the-olympics/" title="" class="text-warning">Education First: Culture</a></cite>
+        </footer>
+      </blockquote>
+
+
+      <blockquote class="blockquote card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          English and French are the official languages of the Olympics. They are complemented by the official language of the host country.
+        </p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://worldstrides.com/blog/2018/02/9-facts-about-the-olympic-games-past-and-present/" title="" class="text-warning">WorldStrides</a></cite>
+        </footer>
+      </blockquote>
+
+      <blockquote class="blockquote text-right card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          Gold medals are mostly made of silver. Despite the popular belief that the Gold Medal is composed of pure gold, this hasn’t been the case since the 1912 Olympics. Today’s Olympic Gold Medal is an imposter, made almost entirely from silver with approximately 6 grams of gold to meet the standard laid out in the Olympic Charter
+        </p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://athlonsports.com/olympics/10-surprising-facts-about-olympics" title="" class="text-warning">Athlon Sports</a></cite>
+        </footer>
+      </blockquote>
+
+      <blockquote class="blockquote card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          Medal winners are not only inducted into their nation's history and Olympic history, but they are also honoured at the Olympic stadium of that year's tournament. Their names are engraved on the walls of the stadium - allowing their legacy to be written in stone.
+        </p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://champions-speakers.co.uk/news/14-cool-facts-about-olympics-you-might-not-know" title="" class="text-warning">Champions (UK)</a></cite>
+        </footer>
+      </blockquote>
+
+
+      <blockquote class="blockquote text-right card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          In order for a sport to be included in the Olympics it must be practiced by men in 75 countries on at least 4 continents and by women in 40 countries on at least 3 continents. 
+        </p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.teamempowerhour.com/blog/interesting-and-fun-olympic-facts" title="" class="text-warning">Team Empower Hour</a></cite>
+        </footer>
+      </blockquote>
+
+
+      <blockquote class="blockquote card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          Africa and Antarctica are the only continents in which the Olympics have never been held. 
+        </p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.teamempowerhour.com/blog/interesting-and-fun-olympic-facts" title="" class="text-warning">Team Empower Hour</a></cite>
+        </footer>
+      </blockquote>
+
+      <!-- Horizontal line -->
+      <div class="container">
+        <hr>
+      </div>
+
+      <!------------------------------------------------------------------------------------------------->
+
+      <h3 class = " text-warning">Olympic Prize</h2>
+      <blockquote class="blockquote text-right card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          The prize for event winners in the Ancient Olympics was an olive branch wreath.
+        </p>
+        <p >
+          Since the 1904 Olympics, medals have been awarded in each event, with gold medals 
+          for first place, silver for second and bronze for third.
+        </p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.sciencekids.co.nz/sciencefacts/sports/summerolympics.html" title="" class="text-warning">SK: Summer Olympic Games</a></cite>
+        </footer>
+      </blockquote>
+
+      <!-- Horizontal line -->
+      <div class="container">
+        <hr>
+      </div>
+
+      <!------------------------------------------------------------------------------------------------->
+
+      <h3 class = " text-warning">Olympic Motto</h2>
+      <blockquote class="blockquote card shadow shadow px-3 py-3">
+        <p class="mb-0"> 
+          The Olympic motto is <strong>"Citius, Altius, Fortius"</strong>, which is Latin for <strong>"Faster, Higher, Stronger"</strong>. 
+          It was proposed by Pierre de Coubertin upon the creation of the International Olympic Committee in 1894.
+        </p>
+          <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://stillmed.olympic.org/Documents/Reports/EN/en_report_268.pdf" title="" class="text-warning">International Olympic Committee Media Relations</a></cite>
+          </footer>
+      </blockquote>
+
+      <!-- Horizontal line -->
+      <div class="container">
+        <hr>
+      </div>
+
+      <!------------------------------------------------------------------------------------------------->
+
+      <h3 class = " text-warning">Olympic Torch</h2>
+      <blockquote class="blockquote text-right card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          The Olympic flame is lit at Olympia in Greece every two years (Summer and Winter Olympics) 
+          before it journeys to the next host nation where it is paraded around until the lighting 
+          of the Olympic Cauldron at the opening ceremony.
+        </p>
+          <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.sciencekids.co.nz/sciencefacts/sports/summerolympics.html" title="" class="text-warning">SK: Summer Olympic Games</a></cite>
+          </footer>
+      </blockquote>
+
+
+      <blockquote class="blockquote card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          The Olympic torch is lit the old-fashioned way in an ancient ceremony at the temple of Hera, 
+          in Greece: Actresses, wearing costumes of Greek priestesses, use a parabolic mirror and sun rays 
+          to kindle the torch.
+        </p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.ef.edu/blog/language/24-facts-about-the-olympics/" title="" class="text-warning">Education First: Culture</a></cite>
+        </footer>
+      </blockquote>
+
+
+      <blockquote class="blockquote text-right card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          Starting from Greece, the torch starts its relay to the host city: It is usually carried by runners, 
+          but it has traveled on a boat, on an airplane (and the Concorde), on horseback, on the back 
+          of a camel, via radio signal, underwater, and in a canoe.
+        </p>
+          <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.ef.edu/blog/language/24-facts-about-the-olympics/" title="" class="text-warning">Education First: Culture</a></cite>
+          </footer>
+      </blockquote>
+
+      <blockquote class="blockquote card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          The relay torch and the Olympic flame are supposed to burn during the whole event. In case 
+          the flame goes out, it can only be reignited with a backup flame, which has been lit in Greece 
+          as well, and with never a regular lighter!
+        </p> 
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.ef.edu/blog/language/24-facts-about-the-olympics/" title="" class="text-warning">Education First: Culture</a></cite>
+        </footer>
+      </blockquote>
+
+      <blockquote class="blockquote text-right card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          The unlit Olympic torch has also been taken to space several times.</p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.ef.edu/blog/language/24-facts-about-the-olympics/" title="" class="text-warning">Education First: Culture</a></cite>
+        </footer>
+      </blockquote>
+
+
+      <!-- Horizontal line -->
+      <div class="container">
+        <hr>
+      </div>
+
+      <h3 class = " text-warning">Olympic Symbol</h2>
+
+      <blockquote class="blockquote card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          The five rings of the Olympic symbol – designed by Baron Pierre de Coubertin, co-founder 
+          of the modern Olympic Games – represent the five inhabited continents of the world 
+          (Africa, Asia, Australia, Europe, and the Americas), they are linked together in friendship.
+        </p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.ef.edu/blog/language/24-facts-about-the-olympics/" title="" class="text-warning">Education First: Culture</a></cite>
+        </footer>
+      </blockquote>
+
+
+      <blockquote class="blockquote text-right card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          The six colors – <strong class="text-info">blue</strong>,  <strong class="text-warning">yellow</strong>,  <strong>black</strong>,  <strong class="text-success">green</strong>,  <strong class="text-danger">red</strong>, and the  white background – were 
+          chosen because every nation’s flag contains at least one of them.
+        </p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.ef.edu/blog/language/24-facts-about-the-olympics/" title="" class="text-warning">Education First: Culture</a></cite>
+        </footer>
+      </blockquote>
+
+      <!-- Horizontal line -->
+      <div class="container">
+        <hr>
+      </div>
+
+      <h3 class = " text-warning">Olympics cancelled</h2>
+
+      <blockquote class="blockquote card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          Since the opening of the first modern Olympic Games in 1896, the international sports 
+          competition has only been canceled three times: once during World War I (1916) and twice 
+          during World War II (1940, 1944). Until the 2020 COVID-19 outbreak, which postponed the 
+          Summer Olympic games for a year, the Olympics weathered politically charged boycotts and 
+          two separate terrorist attacks without being canceled or postponed during peacetime.
+        </p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.olympic.org/news/ioc-ipc-tokyo-2020-organising-committee-and-tokyo-metropolitan-government-announce-new-dates-for-the-olympic-and-paralympic-games-tokyo-2020" title="" class="text-warning">International Olympic Committee Media Relations</a></cite>
+        </footer>
+      </blockquote>
+
+      <blockquote class="blockquote text-right card shadow shadow px-3 py-3">
+        <p class="mb-0"> 
+                The 2020 Summer Olympics, originally scheduled to be held in Tokyo, Japan between 24 July 
+                and 9 August 2020, were rescheduled for 23 July to 8 August 2021 as a result of the COVID-19 
+                pandemic. The Games of the XXXII Olympiad will keep the name Tokyo 2020 for marketing and 
+                branding purposes despite being held in 2021.
+        </p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.history.com/news/olympics-postponed-cancelled" title="" class="text-warning">Davis Roos - When World Events Disrupted the Olympics</a></cite>
+        </footer>
+      </blockquote>
+
+          
+      <blockquote class="blockquote card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          At its 1986 Session in Lausanne, the IOC decided to introduce a change where the summer and winter games were no longer held in the same year. 
+          From 1924 to 1992, the Summer and Winter Games were each held in the same year, every four years. 
+          This four years period is called the "Olympiad". The last Summer and Winter Games held in the same 
+          year were in Barcelona (Summer) and Albertville (Winter) in 1992. Since then, the Summer and Winter 
+          Games are each still held every four years but the Summer Games are celebrated during the first year 
+          of an Olympiad and the Winter Games held in the third year.
+        </p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.olympic.org/faq/history-and-origin-of-the-games/since-when-have-the-summer-and-winter-games-no-longer-been-held-in-the-same-year" title="" class="text-warning">International Olympic Committee Media Relations</a></cite>
+        </footer>
+      </blockquote>
+
+      <!-- Horizontal line -->
+      <div class="container">
+        <hr>
+      </div>
+
+      <h3 class = " text-warning">1904 Olympics Marathon</h2>
+
+      <blockquote class="blockquote text-right card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          At the 1904 Olympics in St. Louis, the marathon was a total mess: The first place finisher did most of the race in a car, the guy in second almost died from eating rat poison, and the fourth place finisher raced in dress pants and shoes, and took a nap by the side of the road for part of the race.
+        </p>
+      
+          <!--
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.quora.com/What-is-the-most-interesting-historical-fact-you-know-off-the-top-of-your-head" title="">Quora</a></cite>
+        </footer> -->
+      </blockquote>
+
+
+      <blockquote class="blockquote card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          First off, the entire course was very dusty and breathing in that dust caused all kinds of injuries, including one runner who was hospitalized with hemorrhaging after the dust tore his esophagus and stomach lining. The organizer of the race purposefully withheld water in order to test the effects of dehydration. So the whole thing was a nightmare from the start.
+        </p>
+        <!--
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.quora.com/What-is-the-most-interesting-historical-fact-you-know-off-the-top-of-your-head" title="">Quora</a></cite>
+        </footer> -->
+      </blockquote>
+
+
+      <blockquote class="blockquote text-right card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          That first-place finisher, Fred Lorz, hitched a ride in a car to the end of the course after he was struck with serious cramping. He got out shortly before the finish line and crossed it, which fooled some of the onlookers. He claimed he did it "as a joke."
+        </p>
+        <!--
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.quora.com/What-is-the-most-interesting-historical-fact-you-know-off-the-top-of-your-head" title="">Quora</a></cite>
+        </footer> -->
+      </blockquote>
+
+
+      <blockquote class="blockquote card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          That second-place finisher, Thomas Hicks, was given a mixture of egg whites and strychnine, a poison that is often used to kill rodents or birds, as an attempt at a performance-enhancing drug. He was carried across the finish line by his handlers.
+        </p>
+        <!--
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.quora.com/What-is-the-most-interesting-historical-fact-you-know-off-the-top-of-your-head" title="">Quora</a></cite>
+        </footer> -->
+      </blockquote>
+
+      <blockquote class="blockquote text-right card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          That fourth-place finisher, Andarín Carbajal (pictured above), was a Cuban national who raised money to attend the Olympics by running the entire length of Cuba. He gambled away all the money when he arrived in the States, and showed up for the race in dress clothing. Thankfully, another runner used a knife to cut his pants into shorts. Carbajal stopped at a roadside orchard for a snack during the race, but the apples were rotten so he was struck with stomach cramps and had to sleep it off
+        </p>
+
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.quora.com/What-is-the-most-interesting-historical-fact-you-know-off-the-top-of-your-head" title="" class="text-warning">Quora</a></cite>
+        </footer>
+      </blockquote>
+
+      <!-- Horizontal line -->
+      <div class="container">
+        <hr>
+      </div>
+
+      
+      <h3 class = " text-warning">Olympic Controversy</h2>
+
+      <blockquote class="blockquote card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          In one of the most dramatic moments in Olympic history, John Carlos and Tommie Smith made a monumental political statement, making a black power salute on the podium of the 1968 Olympic Games in Mexico. What is less known is that the silver medallist that day was Australian white man, Peter Norman. He stood by the duo in solidarity while displaying a human rights badge. Norman was, like the two American sprinters, attacked by his own country's media for this display and barred from competing in future Olympics.
+        </p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://champions-speakers.co.uk/news/14-cool-facts-about-olympics-you-might-not-know" title="" class="text-warning">Champions (UK)</a></cite>
+        </footer>
+      </blockquote>
+
+      <h3 class = " text-warning">Women Participation</h2>
+      <blockquote class="blockquote text-right card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          Women have been allowed to compete in the Olympics since 1900. 
+        </p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://www.teamempowerhour.com/blog/interesting-and-fun-olympic-facts" title="" class="text-warning">Team Empower Hour</a></cite>
+        </footer>
+      </blockquote>
+
+
+      <blockquote class="blockquote card shadow shadow px-3 py-3">
+        <p class="mb-0">
+          The London 2012 Olympic Games was known as the Women's Games because it was the first summer Olympics which showcased true equality. Women were not barred from a single sport and for the first time in history, each and every nation sent a female competitor.
+        </p>
+        <footer class="blockquote-footer"> <cite title="Source Title" class="mr-5"><a href="https://champions-speakers.co.uk/news/14-cool-facts-about-olympics-you-might-not-know" title="" class="text-warning">Champions (UK)</a></cite>
+        </footer>
+      </blockquote>
+</div>
+
+
+
+
+<!-- Footer -->
+
+<div class="container-fluid ml-5 mt-5">
+  <footer>
+    <p class="text-muted">Olympics Visualization and Prediction 2020.
+      Images: <a href="https://unsplash.com/">Unsplash &</a>  <a href="https://www.fool.com/amp/features/specials/2014/01/15/does-it-pay-to-host-the-olympics.aspx">Motley Fool, </a>
+     Avatars: <a href="https://getavataaars.com/">GetAvataaars</a></p>
+  </footer>
+  
+</div>
+
+
+
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>

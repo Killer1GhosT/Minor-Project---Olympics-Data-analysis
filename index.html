@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Olympics - Visualization & Prediction</title>
+  <!-- Icon for window -->
+  <link rel="icon" href="https://image.flaticon.com/icons/svg/1021/1021169.svg">
+  <!-- Font awesome icons -->
+    <script src="https://kit.fontawesome.com/2e362d4438.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap 4 Link -->
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-smnSwzHqW1zKbeuSMsAM/fMQpkk7HY11LuHiwT8snL/W2QBoZtVCT4H5x1CEcJCs" crossorigin="anonymous">
+
+  <!-- Insert link to customized stylesheet here --> 
+ <!--------------------------> <!-------------------------->
+
+  <!-- Link to D3 -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+<!-- Link to Plotly -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+
+
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand mt-3" href="index.html
+"><h2 class="text-dark ml-2">OLYMPICS</h2></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto"></ul>
+      <ul class="nav navbar-nav navbar-right-custom">
+      <li class="nav-item">
+        <a class="nav-link" href="Flask-API/templates/analysis.html">Analysis</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Flask-API/templates/olympic_facts.html">Olympic Facts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Flask-API/templates/machine_learning.html">Olympic Medal Predictions</a>
+      </li>
+      </ul>
+  </div>
+</nav>
+
+
+ <!-- Image header -->
+    <div class= "container">
+      <div class="row">
+          <div class="col-md-12">  
+            <img class="col-md-12" id="photo" src="Flask-API/static/assets/images/images_home/index.png"/>   
+          </div>
+      </div>
+    </div>  
+
+<hr>
+<!--Insert title and subtitle here --> 
+<!--------------------------><!-------------------------->
+<div class= "container">
+  
+  <section id="header" class="text-center">
+      <h1 class="mb-5 display-3 content">RACE TO THE FINISH LINE</h1>
+<!--       <h2 class="mb-5 content">subtitle here</h2> -->
+  </section>
+</div>
+
+ <!-- Project Summary -->
+
+ <div class= "container my-5">
+  
+  <sectio class="my-5">
+    <h1 class="mb-3 text-danger">Project Objectives</h1>
+   <p class="lead">1. Analyze and create visualizations on an Olympic dataset from 1896 to 2016 to uncover which countries stay at the top overtime, by season, and by sport; what it takes for an Olympian to be at the top for each sport, sport popularity, and the relationship between Olympic Medal counts and country’s GDP.</p><br>
+    <p class="lead">2. Additionally from the Olympic dataset, machine learning was incorporated to predict the amount of medals 25 countries would obtain in the 2020 Tokyo Olympics with Linear Regression, Logistic Regression, and Auto Regressive Integrated Moving Average(ARIMA) model.</p><br>
+
+
+     <a button type="button" class="btn btn-info btn-sm mx-auto my-2" href="https://drive.google.com/file/d/1fLLRSHATnKIshJvXfXS-zz_2k5JL5zGe/view?usp=sharing">Presentaion - Machine Learning</button></a>
+
+
+  </section>
+</div>
+
+<div class="container">
+  <hr>
+</div>
+
+<!-- Team -->
+
+<div class="container my-5">
+  <h1 class="text-danger">Team</h1>
+
+      <div class="row">
+           <div class=" d-flex justify-content-center">
+              <div class="col-sm-6 col-lg-2 mb-4">
+                <img class="img-thumbnail rounded-circle" src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortFlat&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"" alt="" />
+                <h4 class="lead my-2 text-center">Ayush Sharma</h4>
+                  <!-- <p class="text-muted text-center">role here</p> -->
+                  <!-- <a class="d-flex justify-content-center" href="#!"><i class="fab fa-linkedin-in"></i></a> -->
+
+              </div>
+              <div class="col-sm-6 col-lg-2 mb-4">
+                <img class="img-thumbnail rounded-circle" src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortFlat&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light" alt="" />
+                <h4 class="lead my-2 text-center">Ansh Kamthan</h4>
+              </div>
+
+            <div class="col-sm-6 col-lg-2 mb-4">
+              <img class="img-thumbnail rounded-circle" src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortFlat&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"" alt="" />
+                <h4 class="lead my-2 text-center">Kabir Narang</h4>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+
+<div class="container">
+  <hr>
+</div>
+
+<!-- Team -->
+
+<div class="container mt-5">
+  <h1 class="mb-3 text-danger">Key Takeaways</h1>
+    <div class="row">
+        <div class=" d-flex justify-content-center">
+          <div class="col-sm-6 col-lg-6 mb-5">
+            <h3 class="lead">What went well</h3>
+              <ul>
+                <li>Creating the following charts: Racing barchart, static bar and line chart, and Leaflet map with two different layers(street map and choropleth) with Plot.js, D3.js, Chart.js, and Leaflet.js </li>
+              </ul>
+          </div>
+          <div class="col-sm-6 col-lg-6 mb-5">
+            <h3 class="lead">Challenges we overcame</h3>
+            <ul>
+              <li>Utilizing and connecting Python Flask-powered RESTful API</li><br>
+              <li>Web browser cache accurately displaying visualizations</li><br>
+              <li>New Machine Learning model: ARIMA</li>
+
+            </ul>
+            
+
+          </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Footer -->
+<div class="container-fluid ml-5 mt-5">
+<footer>
+    <p class="text-muted">Olympics Visualization and Prediction 2020.
+      Images: <a href="https://unsplash.com/">Unsplash &</a>  <a href="https://www.fool.com/amp/features/specials/2014/01/15/does-it-pay-to-host-the-olympics.aspx">Motley Fool, </a>
+     Avatars: <a href="https://getavataaars.com/">GetAvataaars</a></p>
+</footer>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+<!-- Input js file  here to connect to html file -->
+ <!--------------------------> <!-------------------------->
+
+</body>
+</html>

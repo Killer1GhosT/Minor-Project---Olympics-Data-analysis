@@ -1,0 +1,352 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Olympics - Visualization & Prediction</title>
+  <!-- Icon for window -->
+  <link rel="icon" href="https://image.flaticon.com/icons/svg/1021/1021169.svg">
+  <!-- Font awesome icons -->
+    <script src="https://kit.fontawesome.com/2e362d4438.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap 4 Link -->
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-smnSwzHqW1zKbeuSMsAM/fMQpkk7HY11LuHiwT8snL/W2QBoZtVCT4H5x1CEcJCs" crossorigin="anonymous">
+
+  <style>
+
+/* Fixed table header
+css from https://adrianroselli.com/2020/01/fixed-table-headers.html */
+th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #C0C0C0; 
+}
+
+/*custom scrollbar visbility in data html*/
+/*css from https://mdbootstrap.com/docs/jquery/tables/scroll/*/
+.my-custom-scrollbar {
+  position: relative;
+  height: 700px;
+  overflow: auto;
+  width: auto;
+}
+.table-wrapper-scroll-y {
+  display: block;
+}
+
+/*Scrollbar edit in data html table
+css from https://mdbootstrap.com/docs/jquery/javascript/scroll/*/
+.scrollbar-primary::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #95989b; 
+}
+.scrollbar-primary::-webkit-scrollbar {
+  width: 12px;
+  background-color: #e3e4e6; 
+}
+
+  </style>
+
+</head>
+<body>
+
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand mt-3" href="../../index.html"><h2 class="text-dark ml-2">OLYMPICS</h2></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto"></ul>
+        <ul class="nav navbar-nav navbar-right-custom">
+        <li class="nav-item">
+          <a class="nav-link" href="analysis.html">Analysis</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="olympic_facts.html">Olympic Facts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="machine_learning.html">Olympic Medal Predictions</a>
+        </li>
+      </li>
+        </ul>
+    </div>
+  </nav>
+
+ <!-- Image header -->
+    <div class= "container">
+      <div class="row">
+          <div class="col-md-12">  
+            <img class="col-md-12" id="photo" src="../static/assets/images/Tokyo-2020.jpg"/>   
+          </div>
+      </div>
+    </div>  
+
+<hr>
+<!--Insert title and subtitle here --> 
+  <div class= "container">
+
+    <section id="header" class="text-center">
+        <h1 class="display-4 content">Olympic Medal Predictions</h1>
+        <h2 class="mb-5 content text-muted">with machine learning</h2>
+    </section>
+  </div>
+
+  <section class="container-fluid my-3 text-center">
+    <br>
+    <a class="text-danger" href="#predicted_medals"><h5>Medal Prediction</a> | <a class="text-danger" href="#gymnastic_body_comp"> Olympic Medalists</a></h5>
+    <br>
+  </section>
+
+  <div class="container">
+      <h2 class="text-danger ml-5 my-5 text-center" >Predicted Total Medals</h2>
+  </div>
+
+
+<!-- Table - Predicted count -Linear Regressionand ARIMA-->
+     <div class="container"> 
+      <div class="card shadow mb-4">
+        <div class="card-header py-3">
+          <h5 class="m-0 font-weight-bold text-info text-center" id="predicted_medals">Linear Regression & ARIMA Model: USA Predicted count(2004-2020)</h5>
+        </div>
+        <div class="card-body">
+
+<!-- LINEAR REGRESSION & ARIMA MODEL: USA PREDICTED COUNT(2004-2020) VISUAL -->
+  <div class='tableauPlaceholder' id='viz1600901024312' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;OlympicDashboard2&#47;MedalDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='OlympicDashboard2&#47;MedalDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;OlympicDashboard2&#47;MedalDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1600901024312');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+        </div>
+      </div>
+    </div>
+
+<hr>
+
+<!-- Table - Predicted count -Linear Regressionand -->
+     <div class="container"> 
+      <div class="card shadow mb-4">
+        <div class="card-header py-3">
+          <h5 class="m-0 font-weight-bold text-info text-center" id="predicted_medals">Linear Regression Model: Top 25 Predicted count(2016)</h5>
+        </div>
+        <div class="card-body">
+
+<!-- LINEAR REGRESSION MODEL: TOP 25 PREDICTED COUNT(2016) VISUAL -->
+  <div class='tableauPlaceholder' id='viz1600901002178' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;Top25CountriesandMedalCount-2016&#47;Top25CountriesandMedalCount-Dashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Top25CountriesandMedalCount-2016&#47;Top25CountriesandMedalCount-Dashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;Top25CountriesandMedalCount-2016&#47;Top25CountriesandMedalCount-Dashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1600901002178');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        </div>
+      </div>
+    </div>
+
+
+<!-- Predicted 2020 -->
+     <div class="container"> 
+      <div class="card shadow mb-4">
+        <div class="card-header py-3">
+          <h5 class="m-0 font-weight-bold text-info text-center" id="predicted_medals">Linear Regression: Top 10 Countries Predicted count for 2020</h5>
+        </div>
+        <div class="card-body">
+          <div id="table-area" class="">
+            <table id="machine-learning-table-2020" class="table table-bordered table-hover table-condensed">
+              <thead>
+                <tr>
+                <th class="table-head"><h6>Country</h6></th>
+                <th class="table-head"><h6>Predicted Gold</h6></th>
+                <th class="table-head"><h6>Predicted Silver</h6></th>
+                <th class="table-head"><h6>Predicted Bronze</h6></th>
+                <th class="table-head"><h6>Predicted Total Medals</h6></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>USA</td>
+                  <td>32</td>
+                  <td>24</td>
+                  <td>21</td>
+                  <td>80</td>
+                </tr>
+                <tr>
+                  <td>Japan</td>
+                  <td>20</td>
+                  <td>16</td>
+                  <td>14</td>
+                  <td>52</td>
+                </tr>
+                <tr>
+                  <td>Russia</td>
+                  <td>19</td>
+                  <td>15</td>
+                  <td>13</td>
+                  <td>49</td>
+                </tr>                                
+                <tr>
+                  <td>Australia</td>
+                  <td>12</td>
+                  <td>13</td>
+                  <td>12</td>
+                  <td>38</td>
+                </tr>
+                <tr>
+                  <td>China</td>
+                  <td>13</td>
+                  <td>8</td>
+                  <td>8</td>
+                  <td>29</td>
+                </tr>
+                <tr>
+                  <td>Germany</td>
+                  <td>8</td>
+                  <td>10</td>
+                  <td>11</td>
+                  <td>28</td>
+                </tr>
+                <tr>
+                  <td>UK</td>
+                  <td>6</td>
+                  <td>9</td>
+                  <td>7</td>
+                  <td>24</td>
+                </tr>
+                <tr>
+                  <td>France</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>17</td>
+                </tr>
+                <tr>
+                  <td>Italy</td>
+                  <td>7</td>
+                  <td>5</td>
+                  <td>5</td>
+                  <td>17</td>
+                </tr>
+                <tr>
+                  <td>Netherlands</td>
+                  <td>4</td>
+                  <td>6</td>
+                  <td>5</td>
+                  <td>16</td>
+                </tr>                                                                                                
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+<hr>
+
+  <div class="container" id="gymnastic_body_comp">
+      <h2 class="text-danger ml-5 mt-5 mb-3 text-center">Predicted Olympic Medalists for 2020</h2>
+  </div>
+
+
+          <!-- Table - Actual count -->
+         <div class="container"> 
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h5 class="m-0 font-weight-bold text-info text-center">Logistic Regression: Olympic Medalists</h5>
+            </div>
+            <div class="card-body">
+        <div class="card-body">
+          <div id="table-area" class="">
+            <table id="machine-learning-table-2020" class="table table-bordered table-hover table-condensed">
+              <thead>
+                <tr>
+                <th class="table-head"><h6>Sport</h6></th>
+                <th class="table-head"><h6>Predicted<br>Age</h6></th>
+                <th class="table-head"><h6>Predicted<br>Height(cm)</h6></th>
+                <th class="table-head"><h6>Predicted<br>Weight(kg)</h6></th>
+                <th class="table-head"><h6>Predicted<br>Medals</h6></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Basketball</td>
+                  <td>24</td>
+                  <td>180</td>
+                  <td>80</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>Judo</td>
+                  <td>23</td>
+                  <td>170</td>
+                  <td>60</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>Badminton</td>
+                  <td>31</td>
+                  <td>172</td>
+                  <td>70</td>
+                  <td>0</td>
+                </tr>                                
+                <tr>
+                  <td>Sailing</td>
+                  <td>30</td>
+                  <td>159</td>
+                  <td>55</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>Gymnastics</td>
+                  <td>28</td>
+                  <td>175</td>
+                  <td>64</td>
+                  <td>1</td>
+                </tr>
+                                                                                                                
+
+              </tbody>
+
+
+            </table>
+          </div>
+
+            
+            
+              <img src="../static/assets/images/images_chart2/individual_sports.PNG" alt="Individual sports" style="width:50%" class="rounded float-left">
+              <img src="../static/assets/images/images_chart2/team_sports.PNG" alt="Team Sports" style="width:50%" class="rounded float-right">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+<div class="container">
+
+</div>
+
+
+
+
+<hr>
+
+<!-- Footer -->
+
+<div class="container-fluid ml-5 mt-5">
+  <footer>
+    <p class="text-muted">Olympics Visualization and Prediction 2020.
+      Images: <a href="https://unsplash.com/">Unsplash &</a>  <a href="https://www.fool.com/amp/features/specials/2014/01/15/does-it-pay-to-host-the-olympics.aspx">Motley Fool, </a>
+     Avatars: <a href="https://getavataaars.com/">GetAvataaars</a></p>
+  </footer>
+</div>
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>

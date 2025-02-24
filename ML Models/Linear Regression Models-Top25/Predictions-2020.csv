@@ -1,0 +1,26 @@
+Country,Gold Predicted,Silver Predicted,Bronze Predicted,Total Medals Predicted
+USA,32,24,21,80
+Japan,20,16,14,52
+Russia,19,15,13,49
+Australia,12,13,12,38
+China,13,8,8,29
+Germany,8,10,11,28
+UK,6,9,7,24
+France,5,6,7,17
+Italy,7,5,5,17
+Netherlands,4,6,5,16
+Canada,3,5,5,13
+South Korea,3,4,3,11
+Hungary,3,2,1,7
+Sweden,1,2,2,5
+Poland,1,2,5,5
+Romania,0,1,1,2
+Belgium,0,1,0,2
+Finland,1,0,1,1
+Bulgaria,-1,1,0,1
+Denmark,-1,1,0,1
+Switzerland,-1,1,-1,1
+Cuba,0,0,-1,0
+Norway,0,0,-1,0
+Greece,-2,-1,-1,-4
+Czech Republic,-2,-2,-2,-6

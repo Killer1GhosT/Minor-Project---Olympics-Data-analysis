@@ -1,0 +1,961 @@
+[
+{
+"event": "Basketball Men's Basketball",
+"age": 25,
+"height": 198,
+"weight": 95,
+"sport": "Basketball"
+},
+{
+"event": "Boxing Men's Bantamweight",
+"age": 22,
+"height": 165.5,
+"weight": 54,
+"sport": "Boxing"
+},
+{
+"event": "Boxing Men's Featherweight",
+"age": 20,
+"height": 168,
+"weight": 57,
+"sport": "Boxing"
+},
+{
+"event": "Boxing Men's Flyweight",
+"age": 22,
+"height": 165,
+"weight": 51,
+"sport": "Boxing"
+},
+{
+"event": "Boxing Men's Heavyweight",
+"age": 24,
+"height": 190,
+"weight": 91,
+"sport": "Boxing"
+},
+{
+"event": "Boxing Men's Light-Flyweight",
+"age": 23,
+"height": 165,
+"weight": 48,
+"sport": "Boxing"
+},
+{
+"event": "Boxing Men's Light-Heavyweight",
+"age": 23,
+"height": 184.5,
+"weight": 81,
+"sport": "Boxing"
+},
+{
+"event": "Boxing Men's Light-Middleweight",
+"age": 23,
+"height": 176,
+"weight": 71,
+"sport": "Boxing"
+},
+{
+"event": "Boxing Men's Light-Welterweight",
+"age": 23,
+"height": 171,
+"weight": 64,
+"sport": "Boxing"
+},
+{
+"event": "Boxing Men's Lightweight",
+"age": 23.5,
+"height": 170,
+"weight": 60,
+"sport": "Boxing"
+},
+{
+"event": "Boxing Men's Middleweight",
+"age": 23,
+"height": 182,
+"weight": 75,
+"sport": "Boxing"
+},
+{
+"event": "Boxing Men's Super-Heavyweight",
+"age": 23.5,
+"height": 194.5,
+"weight": 100.75,
+"sport": "Boxing"
+},
+{
+"event": "Boxing Men's Welterweight",
+"age": 24,
+"height": 176,
+"weight": 67,
+"sport": "Boxing"
+},
+{
+"event": "Cycling Men's 1,000 metres Time Trial",
+"age": 23.5,
+"height": 180,
+"weight": 78,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Men's 100 kilometres Team Time Trial",
+"age": 22,
+"height": 180,
+"weight": 74.5,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Men's BMX",
+"age": 23,
+"height": 186,
+"weight": 90,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Men's Individual Pursuit, 4,000 metres",
+"age": 23.5,
+"height": 185,
+"weight": 79.5,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Men's Individual Time Trial",
+"age": 33,
+"height": 186,
+"weight": 80,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Men's Keirin",
+"age": 28,
+"height": 182,
+"weight": 90,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Men's Madison",
+"age": 30.5,
+"height": 177,
+"weight": 72,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Men's Mountainbike, Cross-Country",
+"age": 27,
+"height": 180,
+"weight": 68,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Men's Omnium",
+"age": 23.5,
+"height": 178.5,
+"weight": 71.5,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Men's Points Race",
+"age": 27,
+"height": 178,
+"weight": 71,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Men's Road Race, Individual",
+"age": 26,
+"height": 178,
+"weight": 72,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Men's Road Race, Team",
+"age": 21,
+"height": 182,
+"weight": 72,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Men's Sprint",
+"age": 24,
+"height": 183,
+"weight": 90,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Men's Tandem Sprint, 2,000 metres",
+"age": 24,
+"height": 174,
+"weight": 73,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Men's Team Pursuit, 4,000 metres",
+"age": 24,
+"height": 182,
+"weight": 75,
+"sport": "Cycling"
+},
+{
+"event": "Cycling Men's Team Sprint",
+"age": 26,
+"height": 179,
+"weight": 82,
+"sport": "Cycling"
+},
+{
+"event": "Figure Skating Men's Singles",
+"age": 22,
+"height": 179,
+"weight": 70,
+"sport": "Figure Skating"
+},
+{
+"event": "Figure Skating Mixed Ice Dancing",
+"age": 29,
+"height": 177.5,
+"weight": 72,
+"sport": "Figure Skating"
+},
+{
+"event": "Figure Skating Mixed Pairs",
+"age": 27,
+"height": 178,
+"weight": 75.5,
+"sport": "Figure Skating"
+},
+{
+"event": "Figure Skating Mixed Team",
+"age": 30,
+"height": 183,
+"weight": 74,
+"sport": "Figure Skating"
+},
+{
+"event": "Gymnastics Men's Floor Exercise",
+"age": 22,
+"height": 164.5,
+"weight": 59.5,
+"sport": "Gymnastics"
+},
+{
+"event": "Gymnastics Men's Horizontal Bar",
+"age": 25,
+"height": 167,
+"weight": 64,
+"sport": "Gymnastics"
+},
+{
+"event": "Gymnastics Men's Horizontal Bar, Teams",
+"age": 26,
+"height": 159,
+"weight": 70,
+"sport": "Gymnastics"
+},
+{
+"event": "Gymnastics Men's Horse Vault",
+"age": 24.5,
+"height": 165.5,
+"weight": 62.5,
+"sport": "Gymnastics"
+},
+{
+"event": "Gymnastics Men's Individual All-Around",
+"age": 23,
+"height": 163,
+"weight": 59,
+"sport": "Gymnastics"
+},
+{
+"event": "Gymnastics Men's Parallel Bars",
+"age": 25,
+"height": 163,
+"weight": 59,
+"sport": "Gymnastics"
+},
+{
+"event": "Gymnastics Men's Parallel Bars, Teams",
+"age": 26,
+"height": 159,
+"weight": 70,
+"sport": "Gymnastics"
+},
+{
+"event": "Gymnastics Men's Pommelled Horse",
+"age": 23,
+"height": 169,
+"weight": 61,
+"sport": "Gymnastics"
+},
+{
+"event": "Gymnastics Men's Rings",
+"age": 24.5,
+"height": 164,
+"weight": 60,
+"sport": "Gymnastics"
+},
+{
+"event": "Gymnastics Men's Rope Climbing",
+"age": 22,
+"height": 167,
+"weight": 59,
+"sport": "Gymnastics"
+},
+{
+"event": "Gymnastics Men's Team All-Around",
+"age": 23,
+"height": 163,
+"weight": 59,
+"sport": "Gymnastics"
+},
+{
+"event": "Gymnastics Men's Team All-Around, Swedish System",
+"age": 26,
+"height": 176,
+"weight": 73,
+"sport": "Gymnastics"
+},
+{
+"event": "Judo Men's Extra-Lightweight",
+"age": 24,
+"height": 164,
+"weight": 60,
+"sport": "Judo"
+},
+{
+"event": "Judo Men's Half-Heavyweight",
+"age": 24.5,
+"height": 185,
+"weight": 100,
+"sport": "Judo"
+},
+{
+"event": "Judo Men's Half-Lightweight",
+"age": 26,
+"height": 164,
+"weight": 66,
+"sport": "Judo"
+},
+{
+"event": "Judo Men's Half-Middleweight",
+"age": 23,
+"height": 179.5,
+"weight": 79.5,
+"sport": "Judo"
+},
+{
+"event": "Judo Men's Heavyweight",
+"age": 26,
+"height": 185,
+"weight": 125,
+"sport": "Judo"
+},
+{
+"event": "Judo Men's Lightweight",
+"age": 23,
+"height": 172,
+"weight": 73,
+"sport": "Judo"
+},
+{
+"event": "Judo Men's Middleweight",
+"age": 26.5,
+"height": 181,
+"weight": 86,
+"sport": "Judo"
+},
+{
+"event": "Judo Men's Open Class",
+"age": 28.5,
+"height": 180,
+"weight": 111.5,
+"sport": "Judo"
+},
+{
+"event": "Rowing Men's Coxed Eights",
+"age": 25,
+"height": 191,
+"weight": 89,
+"sport": "Rowing"
+},
+{
+"event": "Rowing Men's Coxed Fours",
+"age": 24,
+"height": 189.5,
+"weight": 89,
+"sport": "Rowing"
+},
+{
+"event": "Rowing Men's Coxed Pairs",
+"age": 25,
+"height": 187,
+"weight": 88,
+"sport": "Rowing"
+},
+{
+"event": "Rowing Men's Coxless Fours",
+"age": 26,
+"height": 192,
+"weight": 91,
+"sport": "Rowing"
+},
+{
+"event": "Rowing Men's Coxless Pairs",
+"age": 26,
+"height": 192,
+"weight": 90,
+"sport": "Rowing"
+},
+{
+"event": "Rowing Men's Double Sculls",
+"age": 27,
+"height": 188,
+"weight": 87,
+"sport": "Rowing"
+},
+{
+"event": "Rowing Men's Lightweight Coxless Fours",
+"age": 27,
+"height": 184.5,
+"weight": 72,
+"sport": "Rowing"
+},
+{
+"event": "Rowing Men's Lightweight Double Sculls",
+"age": 28,
+"height": 181.5,
+"weight": 73.5,
+"sport": "Rowing"
+},
+{
+"event": "Rowing Men's Quadruple Sculls",
+"age": 24,
+"height": 194,
+"weight": 93,
+"sport": "Rowing"
+},
+{
+"event": "Rowing Men's Single Sculls",
+"age": 26,
+"height": 189,
+"weight": 92,
+"sport": "Rowing"
+},
+{
+"event": "Snowboarding Men's Boardercross",
+"age": 29,
+"height": 185,
+"weight": 91,
+"sport": "Snowboarding"
+},
+{
+"event": "Snowboarding Men's Giant Slalom",
+"age": 26,
+"height": 178,
+"weight": 81,
+"sport": "Snowboarding"
+},
+{
+"event": "Snowboarding Men's Halfpipe",
+"age": 22,
+"height": 175,
+"weight": 70,
+"sport": "Snowboarding"
+},
+{
+"event": "Snowboarding Men's Parallel Giant Slalom",
+"age": 26.5,
+"height": 181,
+"weight": 88.5,
+"sport": "Snowboarding"
+},
+{
+"event": "Snowboarding Men's Parallel Slalom",
+"age": 27,
+"height": 179,
+"weight": 82,
+"sport": "Snowboarding"
+},
+{
+"event": "Snowboarding Men's Slopestyle",
+"age": 20,
+"height": 178,
+"weight": 75,
+"sport": "Snowboarding"
+},
+{
+"event": "Speed Skating Men's 1,000 metres",
+"age": 25,
+"height": 185,
+"weight": 86,
+"sport": "Speed Skating"
+},
+{
+"event": "Speed Skating Men's 1,500 metres",
+"age": 26,
+"height": 182.5,
+"weight": 78.5,
+"sport": "Speed Skating"
+},
+{
+"event": "Speed Skating Men's 10,000 metres",
+"age": 24,
+"height": 184,
+"weight": 82,
+"sport": "Speed Skating"
+},
+{
+"event": "Speed Skating Men's 5,000 metres",
+"age": 27,
+"height": 185,
+"weight": 80,
+"sport": "Speed Skating"
+},
+{
+"event": "Speed Skating Men's 500 metres",
+"age": 24,
+"height": 180,
+"weight": 78,
+"sport": "Speed Skating"
+},
+{
+"event": "Speed Skating Men's Allround",
+"age": 30,
+"height": 167,
+"weight": 67,
+"sport": "Speed Skating"
+},
+{
+"event": "Speed Skating Men's Team Pursuit (8 laps)",
+"age": 24,
+"height": 183.5,
+"weight": 80,
+"sport": "Speed Skating"
+},
+{
+"event": "Swimming Men's 1,500 metres Freestyle",
+"age": 20,
+"height": 185,
+"weight": 75.5,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 10 kilometres Open Water",
+"age": 27,
+"height": 192,
+"weight": 86,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 100 metres Backstroke",
+"age": 21,
+"height": 190,
+"weight": 84.5,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 100 metres Breaststroke",
+"age": 23,
+"height": 183,
+"weight": 80,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 100 metres Butterfly",
+"age": 22,
+"height": 186,
+"weight": 84,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 100 metres Freestyle",
+"age": 21.5,
+"height": 191,
+"weight": 80,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 100 yard Freestyle",
+"age": 23,
+"height": 187,
+"weight": 83,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 200 metres Backstroke",
+"age": 21,
+"height": 189,
+"weight": 84,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 200 metres Breaststroke",
+"age": 21,
+"height": 185,
+"weight": 77,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 200 metres Butterfly",
+"age": 22,
+"height": 188,
+"weight": 80,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 200 metres Freestyle",
+"age": 20.5,
+"height": 190,
+"weight": 78,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 200 metres Individual Medley",
+"age": 22,
+"height": 191,
+"weight": 86,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 220 yard Freestyle",
+"age": 19,
+"height": 183,
+"weight": 70,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 4 x 100 metres Freestyle Relay",
+"age": 22,
+"height": 190,
+"weight": 84,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 4 x 100 metres Medley Relay",
+"age": 22,
+"height": 188,
+"weight": 84,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 4 x 200 metres Freestyle Relay",
+"age": 21,
+"height": 188,
+"weight": 81,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 4 x 250 metres Freestyle Relay",
+"age": 24,
+"height": 187,
+"weight": 83,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 4 x 50 Yard Freestyle Relay",
+"age": 19,
+"height": 183,
+"weight": 70,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 400 metres Freestyle",
+"age": 20,
+"height": 185,
+"weight": 79,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 400 metres Individual Medley",
+"age": 21,
+"height": 187.5,
+"weight": 83,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 440 yard Freestyle",
+"age": 19,
+"height": 183,
+"weight": 70,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 50 metres Freestyle",
+"age": 22,
+"height": 198,
+"weight": 87,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's 50 yard Freestyle",
+"age": 23,
+"height": 187,
+"weight": 83,
+"sport": "Swimming"
+},
+{
+"event": "Swimming Men's One Mile Freestyle",
+"age": 21,
+"height": 165,
+"weight": 66,
+"sport": "Swimming"
+},
+{
+"event": "Tennis Men's Doubles",
+"age": 26.5,
+"height": 185,
+"weight": 80,
+"sport": "Tennis"
+},
+{
+"event": "Tennis Men's Singles",
+"age": 25.5,
+"height": 190,
+"weight": 82,
+"sport": "Tennis"
+},
+{
+"event": "Tennis Mixed Doubles",
+"age": 29,
+"height": 193.5,
+"weight": 87,
+"sport": "Tennis"
+},
+{
+"event": "Volleyball Men's Volleyball",
+"age": 27,
+"height": 195,
+"weight": 89,
+"sport": "Volleyball"
+},
+{
+"event": "Weightlifting Men's Bantamweight",
+"age": 25,
+"height": 152,
+"weight": 56,
+"sport": "Weightlifting"
+},
+{
+"event": "Weightlifting Men's Featherweight",
+"age": 25,
+"height": 156,
+"weight": 62,
+"sport": "Weightlifting"
+},
+{
+"event": "Weightlifting Men's Flyweight",
+"age": 23,
+"height": 153,
+"weight": 54,
+"sport": "Weightlifting"
+},
+{
+"event": "Weightlifting Men's Heavyweight",
+"age": 24.5,
+"height": 180,
+"weight": 107,
+"sport": "Weightlifting"
+},
+{
+"event": "Weightlifting Men's Heavyweight I",
+"age": 27,
+"height": 177,
+"weight": 96,
+"sport": "Weightlifting"
+},
+{
+"event": "Weightlifting Men's Heavyweight II",
+"age": 23,
+"height": 182,
+"weight": 112,
+"sport": "Weightlifting"
+},
+{
+"event": "Weightlifting Men's Light-Heavyweight",
+"age": 26,
+"height": 172,
+"weight": 83,
+"sport": "Weightlifting"
+},
+{
+"event": "Weightlifting Men's Lightweight",
+"age": 24,
+"height": 165,
+"weight": 69,
+"sport": "Weightlifting"
+},
+{
+"event": "Weightlifting Men's Middle-Heavyweight",
+"age": 25,
+"height": 174,
+"weight": 93,
+"sport": "Weightlifting"
+},
+{
+"event": "Weightlifting Men's Middleweight",
+"age": 24.5,
+"height": 169.5,
+"weight": 75,
+"sport": "Weightlifting"
+},
+{
+"event": "Weightlifting Men's Super-Heavyweight",
+"age": 25.5,
+"height": 185,
+"weight": 155,
+"sport": "Weightlifting"
+},
+{
+"event": "Weightlifting Men's Unlimited, One Hand",
+"age": 24,
+"height": 182.5,
+"weight": 108,
+"sport": "Weightlifting"
+},
+{
+"event": "Wrestling Men's Bantamweight, Freestyle",
+"age": 26,
+"height": 165,
+"weight": 57,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Bantamweight, Greco-Roman",
+"age": 24,
+"height": 162,
+"weight": 57,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Featherweight, Freestyle",
+"age": 25,
+"height": 168,
+"weight": 62,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Featherweight, Greco-Roman",
+"age": 26,
+"height": 167,
+"weight": 62,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Flyweight, Freestyle",
+"age": 22,
+"height": 161,
+"weight": 56,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Flyweight, Greco-Roman",
+"age": 25.5,
+"height": 161,
+"weight": 54.5,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Heavyweight, Freestyle",
+"age": 26,
+"height": 185,
+"weight": 100,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Heavyweight, Greco-Roman",
+"age": 28,
+"height": 185,
+"weight": 100,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Light-Flyweight, Freestyle",
+"age": 23,
+"height": 157,
+"weight": 48,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Light-Flyweight, Greco-Roman",
+"age": 23,
+"height": 160,
+"weight": 48,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Light-Heavyweight, Freestyle",
+"age": 24.5,
+"height": 180,
+"weight": 88.5,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Light-Heavyweight, Greco-Roman",
+"age": 25,
+"height": 177,
+"weight": 87.25,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Lightweight, Freestyle",
+"age": 24,
+"height": 170,
+"weight": 68,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Lightweight, Greco-Roman",
+"age": 24,
+"height": 170,
+"weight": 68,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Middleweight, Freestyle",
+"age": 27,
+"height": 175,
+"weight": 82,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Middleweight, Greco-Roman",
+"age": 25.5,
+"height": 176,
+"weight": 82,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Super-Heavyweight, Freestyle",
+"age": 27,
+"height": 190,
+"weight": 120,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Super-Heavyweight, Greco-Roman",
+"age": 26,
+"height": 193,
+"weight": 117.5,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Unlimited Class, Greco-Roman",
+"age": 26,
+"height": 159,
+"weight": 70,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Welterweight, Freestyle",
+"age": 25,
+"height": 171,
+"weight": 73.5,
+"sport": "Wrestling"
+},
+{
+"event": "Wrestling Men's Welterweight, Greco-Roman",
+"age": 25.5,
+"height": 173,
+"weight": 74.5,
+"sport": "Wrestling"
+}
+]
